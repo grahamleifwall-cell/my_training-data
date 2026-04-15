@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-15T20:28:30.935849",
+    "last_updated": "2026-04-15T23:04:38.360017",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.103"
@@ -256,7 +256,7 @@
       "respiration": null,
       "body_fat_pct": 12.6,
       "abdomen_cm": null,
-      "steps": 4539,
+      "steps": 4628,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -605,7 +605,7 @@
           "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 0.58,
-          "plan_coverage_current_week": 0.86,
+          "plan_coverage_current_week": 0.71,
           "plan_coverage_next_week": 0.86
         },
         "data_quality": "good",
@@ -639,7 +639,7 @@
     "p_max": 514,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-15T20:28:30.934483",
+    "calculation_timestamp": "2026-04-15T23:04:38.358860",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2396,7 +2396,7 @@
       "respiration": null,
       "body_fat_pct": 12.6,
       "abdomen_cm": null,
-      "steps": 4539,
+      "steps": 4628,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2423,19 +2423,6 @@
       "description": "-- Warmup R42 H120-130 10m 75-81% LTHR 90rpm\n\n5x\n- Threshold R60-62 H155-160 4m 97-100% LTHR 80rpm\n- Recover R42 H120-135 2m 75-84% LTHR 90rpm\n\n- Cooldown R34-36 H110-120 5m 68-75% LTHR 80rpm"
     },
     {
-      "id": 103772760,
-      "date": "2026-04-16",
-      "name": "Rest Day",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
       "id": 103772786,
       "date": "2026-04-17",
       "name": "Threshold Run (Apr 17)",
@@ -2451,7 +2438,7 @@
     {
       "id": 104453550,
       "date": "2026-04-17",
-      "name": "Power Pedal Trst",
+      "name": "Power Pedal Test",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": null,
