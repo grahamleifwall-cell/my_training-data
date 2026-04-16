@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 6.47,
-      "total_training_formatted": "6h28m",
-      "total_activities": 9,
-      "total_tss": 369
+      "total_training_hours": 5.98,
+      "total_training_formatted": "5h58m",
+      "total_activities": 8,
+      "total_tss": 363
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-16T16:11:21.719963",
+    "last_updated": "2026-04-16T19:52:27.132288",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.103"
@@ -88,8 +88,8 @@
   "athlete_notes": null,
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "amber",
@@ -110,7 +110,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 1.15
+        "value": 1.13
       },
       "ri": {
         "status": "green",
@@ -118,13 +118,13 @@
         "value_yesterday": 0.93
       },
       "tsb": {
-        "status": "amber",
-        "value": -15.6
+        "status": "green",
+        "value": -12.2
       }
     },
     "signal_summary": {
-      "green": 4,
-      "amber": 2,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "unavailable": 0
     },
@@ -135,32 +135,22 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "hrv",
-        "tsb"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 2 amber (hrv, tsb) >= threshold 2.",
+    "modification": null,
+    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-04-15",
-    "age_days": 0,
+    "age_days": 1,
     "total_months": 35,
     "history_confidence": "high"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 6.47,
-    "total_activities": 9,
+    "total_duration_decimal_hours": 5.98,
+    "total_activities": 8,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 1.72,
@@ -180,12 +170,6 @@
         "tss": 0,
         "distance_km": 0.0
       },
-      "Walk": {
-        "duration_decimal_hours": 0.5,
-        "count": 1,
-        "tss": 6,
-        "distance_km": 1.8
-      },
       "Workout": {
         "duration_decimal_hours": 0.09,
         "count": 1,
@@ -196,11 +180,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 38.24,
-      "atl": 53.87,
-      "tsb": -15.63,
-      "ramp_rate": 4.87,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 37.51,
+      "atl": 49.74,
+      "tsb": -12.23,
+      "ramp_rate": 5.44,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 253.0,
@@ -259,7 +243,7 @@
       "respiration": 13.0,
       "body_fat_pct": 12.7,
       "abdomen_cm": null,
-      "steps": 90,
+      "steps": 2385,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -279,44 +263,44 @@
     "rhr_baseline_28d": 46.7,
     "latest_hrv": 32.0,
     "latest_rhr": 47,
-    "acwr": 1.15,
+    "acwr": 1.13,
     "acwr_interpretation": "optimal",
-    "monotony": 1.42,
-    "monotony_interpretation": "normal (primary sport 0.77, total 1.42 inflated by multi-sport)",
+    "monotony": 1.35,
+    "monotony_interpretation": "normal (primary sport 0.77, total 1.35 inflated by multi-sport)",
     "primary_sport": "run",
     "primary_sport_monotony": 0.77,
     "primary_sport_tss_7d": 231.0,
     "effective_monotony": 0.77,
     "multi_sport_detected": true,
-    "strain": 524.0,
-    "stress_tolerance": 3.7,
-    "load_recovery_ratio": 4.2,
-    "tss_7d_total": 369.0,
-    "tss_28d_total": 1288.0,
+    "strain": 490.0,
+    "stress_tolerance": 3.6,
+    "load_recovery_ratio": 4.1,
+    "tss_7d_total": 363.0,
+    "tss_28d_total": 1282.0,
     "zone_distribution_7d": {
-      "z1_hours": 5.34,
+      "z1_hours": 4.84,
       "z2_hours": 0.28,
       "z3_hours": 0.21,
       "z4_plus_hours": 0.64,
-      "total_hours": 6.48,
+      "total_hours": 5.98,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 3.2,
+    "grey_zone_percentage": 3.5,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 9.9,
+    "quality_intensity_percentage": 10.8,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.87,
+    "easy_time_ratio": 0.86,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 1,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 20245,
+      "z1_seconds": 18453,
       "z2_seconds": 755,
       "z3_seconds": 2316,
-      "z1_pct": 86.8,
-      "z2_pct": 3.2,
-      "z3_pct": 9.9,
-      "polarization_index": 2.43,
+      "z1_pct": 85.7,
+      "z2_pct": 3.5,
+      "z3_pct": 10.8,
+      "polarization_index": 2.42,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
@@ -333,12 +317,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 59523,
+      "z1_seconds": 57731,
       "z2_seconds": 8891,
       "z3_seconds": 12762,
-      "z1_pct": 73.3,
-      "z2_pct": 11.0,
-      "z3_pct": 15.7,
+      "z1_pct": 72.7,
+      "z2_pct": 11.2,
+      "z3_pct": 16.1,
       "polarization_index": 2.02,
       "classification": "Polarized",
       "zone_basis": "mixed"
@@ -385,9 +369,9 @@
       "tid_comparison": {
         "classification_7d": "Polarized",
         "classification_28d": "Polarized",
-        "pi_7d": 2.43,
+        "pi_7d": 2.42,
         "pi_28d": 2.02,
-        "pi_delta": 0.41,
+        "pi_delta": 0.4,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
@@ -646,12 +630,12 @@
     "p_max": 514,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 26.0,
-    "calculation_timestamp": "2026-04-16T16:11:21.718889",
+    "calculation_timestamp": "2026-04-16T19:52:27.131119",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 9,
-      "activities_28d": 29,
+      "activities_7d": 8,
+      "activities_28d": 28,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
@@ -660,56 +644,6 @@
     }
   },
   "recent_activities": [
-    {
-      "id": "i140326318",
-      "date": "2026-04-16T13:28:48",
-      "type": "Walk",
-      "name": "Saint-Geni\u00e8s-de-Fontedit Walking",
-      "duration_hours": 0.5,
-      "distance_km": 1.81,
-      "tss": 6,
-      "intensity_factor": 34.50708,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 90,
-      "max_hr": 111,
-      "avg_cadence": 47.297947,
-      "avg_speed": 3.6,
-      "avg_speed_unit": "KPH",
-      "max_speed": 5.2,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 122,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 34.0,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 1792,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
     {
       "id": "18125581939",
       "date": "2026-04-15T19:05:05",
@@ -804,7 +738,7 @@
       "id": "i139904997",
       "date": "2026-04-14T17:13:28",
       "type": "Run",
-      "name": "New Orleans - Foundation Run (Apr 14)",
+      "name": "Afternoon Run",
       "duration_hours": 1.33,
       "distance_km": 14.29,
       "tss": 82,
@@ -852,7 +786,7 @@
       "id": "i139601220",
       "date": "2026-04-13T19:04:28",
       "type": "Ride",
-      "name": "Cycling",
+      "name": "Evening Ride",
       "duration_hours": 1.0,
       "distance_km": 32.37,
       "tss": 81,
@@ -911,7 +845,7 @@
       "id": "i139214214",
       "date": "2026-04-12T10:44:40",
       "type": "Run",
-      "name": "New Orleans - Recovery Run",
+      "name": "Morning Run",
       "duration_hours": 1.0,
       "distance_km": 10.22,
       "tss": 56,
@@ -1011,7 +945,7 @@
       "id": "i138925564",
       "date": "2026-04-11T07:12:37",
       "type": "Run",
-      "name": "LONG SLOW DISTANCE (LSD",
+      "name": "Morning Run",
       "duration_hours": 1.83,
       "distance_km": 17.87,
       "tss": 93,
@@ -1121,7 +1055,7 @@
       "id": "i138548686",
       "date": "2026-04-09T18:11:57",
       "type": "Run",
-      "name": "New Orleans - AEROBIC BASE RUN",
+      "name": "Evening Run",
       "duration_hours": 0.92,
       "distance_km": 9.72,
       "tss": 55,
@@ -1231,7 +1165,7 @@
       "id": "i137978037",
       "date": "2026-04-07T17:14:07",
       "type": "Run",
-      "name": "Outdoor Threshold Run",
+      "name": "Afternoon Run",
       "duration_hours": 1.07,
       "distance_km": 12.33,
       "tss": 76,
@@ -1281,7 +1215,7 @@
       "id": "i137729955",
       "date": "2026-04-06T18:12:44",
       "type": "Ride",
-      "name": "30m Recovery Spin",
+      "name": "Peloton - 42 min Entertainment Ride",
       "duration_hours": 0.7,
       "distance_km": 18.59,
       "tss": 13,
@@ -1401,7 +1335,7 @@
       "id": "i137196525",
       "date": "2026-04-04T10:46:33",
       "type": "Run",
-      "name": "New Orleans Running",
+      "name": "Morning Run",
       "duration_hours": 0.22,
       "distance_km": 2.09,
       "tss": 11,
@@ -1502,7 +1436,7 @@
       "id": "i137132209",
       "date": "2026-04-04T07:11:08",
       "type": "Run",
-      "name": "New Orleans Running",
+      "name": "Morning Run",
       "duration_hours": 0.17,
       "distance_km": 1.63,
       "tss": 9,
@@ -1552,7 +1486,7 @@
       "id": "i137030864",
       "date": "2026-04-03T17:24:29",
       "type": "Run",
-      "name": "New Orleans - Pre-Race Shakeout Run",
+      "name": "Afternoon Run",
       "duration_hours": 0.4,
       "distance_km": 3.87,
       "tss": 20,
@@ -1602,7 +1536,7 @@
       "id": "i136939168",
       "date": "2026-04-03T09:41:40",
       "type": "Run",
-      "name": "New Orleans Running",
+      "name": "Morning Run",
       "duration_hours": 0.08,
       "distance_km": 0.06,
       "tss": 0,
@@ -1652,7 +1586,7 @@
       "id": "i136900271",
       "date": "2026-04-03T07:06:21",
       "type": "Ride",
-      "name": "New Orleans Cycling",
+      "name": "Morning Ride",
       "duration_hours": 0.06,
       "distance_km": 1.04,
       "tss": 1,
@@ -1702,7 +1636,7 @@
       "id": "i136328900",
       "date": "2026-03-31T17:46:48",
       "type": "Run",
-      "name": "Tuesday",
+      "name": "Afternoon Run",
       "duration_hours": 0.62,
       "distance_km": 6.56,
       "tss": 36,
@@ -1752,7 +1686,7 @@
       "id": "i135402912",
       "date": "2026-03-28T06:45:02",
       "type": "Run",
-      "name": "Long Base Run",
+      "name": "Morning Run",
       "duration_hours": 2.18,
       "distance_km": 24.55,
       "tss": 145,
@@ -1862,7 +1796,7 @@
       "id": "i134814549",
       "date": "2026-03-25T16:32:19",
       "type": "Run",
-      "name": "Recovery",
+      "name": "Afternoon Run",
       "duration_hours": 0.75,
       "distance_km": 8.26,
       "tss": 50,
@@ -1972,7 +1906,7 @@
       "id": "i133990020",
       "date": "2026-03-22T11:33:01",
       "type": "Run",
-      "name": "Sunday Run",
+      "name": "Lunch Run",
       "duration_hours": 0.33,
       "distance_km": 4.22,
       "tss": 29,
@@ -2082,7 +2016,7 @@
       "id": "i133761331",
       "date": "2026-03-21T10:35:39",
       "type": "Run",
-      "name": "Satglw",
+      "name": "Morning Run",
       "duration_hours": 1.91,
       "distance_km": 20.64,
       "tss": 121,
@@ -2132,7 +2066,7 @@
       "id": "i133604514",
       "date": "2026-03-20T18:13:17",
       "type": "Run",
-      "name": "Glw2",
+      "name": "Evening Run",
       "duration_hours": 1.05,
       "distance_km": 12.94,
       "tss": 79,
@@ -2443,7 +2377,7 @@
       "respiration": 13.0,
       "body_fat_pct": 12.7,
       "abdomen_cm": null,
-      "steps": 90,
+      "steps": 2385,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2612,10 +2546,10 @@
     "bail_no_match": 7
   },
   "weekly_summary": {
-    "total_training_hours": 6.47,
-    "total_training_formatted": "6h28m",
-    "total_tss": 369,
-    "activities_count": 9,
+    "total_training_hours": 5.98,
+    "total_training_formatted": "5h58m",
+    "total_tss": 363,
+    "activities_count": 8,
     "avg_hrv": 36.4,
     "avg_resting_hr": 47.0
   },
