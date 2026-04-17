@@ -1,9 +1,9 @@
 # ATHLETE DOSSIER: Graham
 
 ## PHYSIOLOGY & ZONES
-- **eFTP:** 225W
-- **Resting HR:** 46 bpm
-- **Max HR:** 181 bpm
+- **eFTP:** [Calculated by Intervals.icu]
+- **Resting HR:** [Calculated by Intervals.icu]
+- **Max HR:** [Calculated by Intervals.icu]
 - **Lactate Threshold HR (LTHR):** [Calculated by Intervals.icu]
 - **Zone Methodology:** Intervals.icu Default (Power and HR)
 
